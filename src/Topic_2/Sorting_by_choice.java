@@ -10,7 +10,8 @@ public class Sorting_by_choice {
     }
 
     static int[] sortedArray(int[] arr){
-        int [] copiedArray = arr;
+        int [] copiedArray;
+        copiedArray = arr;
         int [] sortedArray = new int [arr.length];
         for(int i = 0; i < copiedArray.length; i++){
             int maxElement = maxIndexOfElement(arr);
